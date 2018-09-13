@@ -1,0 +1,6 @@
+<div class="card bg-light mb-3" [class.open]="isOpen" style="max-width: 18rem;" (click)="toggleOpen()">
+  <div class="card-header">{{ title }} <i class="glyphicon glyphicon-chevron-down"></i></div>
+  <div class="card-body" [class.hidden]="!isOpen">
+    <ng-content></ng-content>
+  </div>
+</div>

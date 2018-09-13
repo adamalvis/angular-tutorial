@@ -1,0 +1,11 @@
+.like-component {
+  font-size: 20pt;
+}
+
+.like-component span {
+  cursor: pointer;
+}
+
+.like-component span.active {
+  color: magenta;
+}

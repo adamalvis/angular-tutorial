@@ -1,0 +1,7 @@
+<div class="favorite" (click)="toggleFavorite()">
+  <span class="glyphicon"
+    [ngClass]="{
+      'glyphicon-star': isFavorite,
+      'glyphicon-star-empty': !isFavorite
+    }"></span>
+</div>

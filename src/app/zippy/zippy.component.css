@@ -1,0 +1,14 @@
+i.glyphicon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%) rotate(0deg);
+}
+
+.card-header {
+  position: relative;
+}
+
+.card.open i.glyphicon {
+  transform: translateY(-50%) rotate(180deg);
+}
